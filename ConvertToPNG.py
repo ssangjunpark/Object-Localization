@@ -10,15 +10,7 @@ directory = "fruits-360-transparent/"
 if not os.path.exists(directory):
     os.makedirs(directory)
 
-classes = [
-  'Apple Golden 1',
-  'Avocado 1',
-  'Lemon 1',
-  'Mango 1',
-  'Kiwi 1',
-  'Banana 1',
-  'Strawberry 1',
-  'Raspberry 1'
+classes = [ 'Apple Golden 1', 'Avocado 1', 'Lemon 1', 'Mango 1', 'Kiwi 1', 'Banana 1', 'Strawberry 1', 'Raspberry 1'
 ]
 
 # location for extracting image dataset
