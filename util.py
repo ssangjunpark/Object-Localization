@@ -168,7 +168,9 @@ def draw_prediction(x,p, BACKGROUND_SIZE):
         print(predicted_class)
         rect = Rectangle( (p[0][1]*BACKGROUND_SIZE, p[0][0]*BACKGROUND_SIZE), p[0][3]*BACKGROUND_SIZE, p[0][2]*BACKGROUND_SIZE,linewidth=1,edgecolor='r',facecolor='none')
         ax.add_patch(rect)
+        ax.set_title(predicted_class)
     else:
         print("No classes!")
+        ax.set_title("No classes!")
     
     plt.show()
